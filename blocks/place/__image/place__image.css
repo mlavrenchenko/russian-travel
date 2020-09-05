@@ -1,0 +1,11 @@
+.place__image {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	/* width: 100%;
+	height: 100%; */
+	max-width: 460px;
+	min-height: 100%;
+	object-fit: cover;
+	margin-top: 48px;
+	width: 100%;
+}

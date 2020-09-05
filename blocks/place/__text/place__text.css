@@ -1,0 +1,11 @@
+.place__text {
+	display: grid;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, max-content);
+	margin-top: 48px;
+	row-gap: 24px;
+	width: 100%;
+	outline: 1px solid white;
+}

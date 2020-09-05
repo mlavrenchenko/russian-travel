@@ -7,5 +7,14 @@ line-height: 36px;
 /* or 120% */
 text-align: center;
 color: #FFFFFF;
-margin: 32px 172px 0;
+margin: 32px 0 0;
+padding-left: 172px;
+padding-right: 172px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        padding-left: 144px;
+        padding-right: 144px;
+    }
 }

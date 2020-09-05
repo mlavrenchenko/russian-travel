@@ -1,0 +1,10 @@
+.place {
+	display: grid;
+	grid-template-columns: fit-content(460px) fit-content(484px); 
+	grid-template-rows: repeat(2, max-content);
+	outline: 1px solid white;
+	min-height: 536px;
+	column-gap: 40px;
+	max-width: 984px;
+	width: 100%;
+}

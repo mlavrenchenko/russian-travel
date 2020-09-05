@@ -1,3 +1,9 @@
 .intro {
-	width: 54%;
+	width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+	.intro {
+		width: 74%;
+	}
 }

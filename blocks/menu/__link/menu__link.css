@@ -14,5 +14,6 @@
 }
 
 /* .menu__link::after {
-	text-decoration: underline; */
-} 
+	content: ' ';
+	text-decoration: underline;
+}  */
