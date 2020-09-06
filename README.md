@@ -11,6 +11,10 @@
 * медиазапросы.
 * макет в Figma.
 
+### Github Page
+[Russian travel](https://mlavrenchenko.github.io/russian-travel/)
+
 ### Author
 
 * **Maria Lavrenchenko** - [mlavrenchenko](https://github.com/mlavrenchenko)
+
