@@ -6,7 +6,6 @@
 	grid-template-rows: repeat(2, max-content);
 	row-gap: 24px;
 	width: 100%;
-  outline: 1px solid white;
   max-width: 484px;
 }
 
