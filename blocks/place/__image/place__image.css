@@ -4,8 +4,35 @@
 	/* width: 100%;
 	height: 100%; */
 	max-width: 460px;
-	min-height: 100%;
+	min-height: 320px;
 	object-fit: cover;
-	margin-top: 48px;
 	width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image{
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .place__image {
+    max-width: 320px;
+    grid-column: 1;
+    grid-row: 2 / 3;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    left: -16px;
+    width: calc(100% + 16px*2);
+    position: relative;
+  }
 }

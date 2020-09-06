@@ -5,3 +5,9 @@
 .places__place:first-child {
 	margin-top: 0;
 }
+
+@media screen and (max-width: 520px) {
+  .places__place {
+    margin-top: 80px;
+  }
+}

@@ -4,8 +4,29 @@
 	grid-row: 2 / 3;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(2, max-content);
-	margin-top: 48px;
 	row-gap: 24px;
 	width: 100%;
-	outline: 1px solid white;
+  outline: 1px solid white;
+  max-width: 484px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .place__text {
+    max-width: 320px;
+    grid-column: 1;
+    grid-row: 3 / 4;
+  }
+}
+

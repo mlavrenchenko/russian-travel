@@ -1,14 +1,42 @@
 .cover__subtitle {
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* or 122% */
-text-align: center;
-color: #FFFFFF;
-text-decoration: none;
-z-index: 6;
-width: 30%;
-min-height: 66px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  z-index: 6;
+  width: calc(360px / 100vh);
+  min-height: 48px;
+  max-width: 360px;
+  margin: 32px 0 0;
+  outline: 1px solid white;
+}
+
+.cover__subtitle:hover {
+  transition: color 1s linear 0s;
+  opacity: .5;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__subtitle {
+    margin: 16px 0 0;
+    width: 90%;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    margin: 16px 0 0;
+    width: 90%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
 }
