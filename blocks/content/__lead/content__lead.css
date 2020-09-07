@@ -1,9 +1,15 @@
 .content__lead {
-  margin: 56px 0 0 ;
+  margin: 56px auto 0 ;
+}
+
+@media screen and (max-width: 1280px) {
+  .content__lead {
+    margin: 56x 0 0 ;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .content__lead {
-    margin: 48px 0 0 ;
+    margin: 48px 0 0;
   }
 }

@@ -11,5 +11,5 @@
 
 .place__website-link:hover {
   transition: color 1s linear 0s;
-  opacity: .5;
+  opacity: .8;
 }

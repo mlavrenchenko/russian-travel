@@ -1,5 +1,5 @@
 .cover__title {
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Inter-Black', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -7,39 +7,58 @@
   /* or 106% */
   text-align: center;
   color: #FFFFFF;
-  z-index: 10;
-  width: calc(560px / 100vh);
-  margin: 0px;
-  max-width: 560px;
-  min-height: 70px;
+  z-index: 5;
+  margin: 0 auto;
+  /* width: 40vw; */
+  max-width: 600px;
   padding-top: 245px;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .cover__title {
+    font-size: 80px;
+    line-height: 84px;
+  }
 }
 
 
+@media screen and (max-width: 1280px) {
+  .cover__title {
+    max-width: 560px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .cover__title {
-    left: -48px;
-    width: calc(100% + 48px*2);
-    padding-top: 195px;
+    /* left: -48px; */
+    width: 100%;
+    /* padding-top: 195px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     padding-top: 115px;
-    left: -24px;
-    width: calc(100% + 24px*2);
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__title {
+    padding-top: 115px;
+    font-size: 60px;
+    line-height: 64px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .cover__title {
     padding-top: 85px;
-    left: -16px;
-    width: calc(100% + 16px*2);
     width: 90%;
-    font-size: 52px;
-    line-height: 55px;
+    font-size: 38px;
+    line-height: 41px;
   }
 }
 

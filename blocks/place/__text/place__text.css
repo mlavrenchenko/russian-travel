@@ -4,9 +4,16 @@
 	grid-row: 2 / 3;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(2, max-content);
-	row-gap: 24px;
+	row-gap: 3vw;
 	width: 100%;
-  max-width: 484px;
+  max-width: 41vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__text {
+    row-gap: 24px;
+    max-width: 484px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,11 +28,16 @@
   }
 }
 
+@media screen and (max-width: 670px) {
+  .place__text {
+    grid-column: 1;
+    grid-row: 3 / 4;
+  }
+}
+
 @media screen and (max-width: 440px) {
   .place__text {
     max-width: 320px;
-    grid-column: 1;
-    grid-row: 3 / 4;
   }
 }
 

@@ -1,6 +1,5 @@
 .page {
-  max-width: 1280px;
-  min-height: 6875px;
+  max-width: 100vw;
   margin: 0 auto;
   background-color: #2A2C2F;
 }
@@ -8,20 +7,17 @@
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
-    min-height: 6895px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
     max-width: 768px;
-    min-height: 6855px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
     max-width: 320px;
-    min-height: 9620px;
   }
 }

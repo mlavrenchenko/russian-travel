@@ -2,13 +2,27 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  max-width: 1184px;
+  max-width: 2048px;
   row-gap: 16px;
   column-gap: 16px;
-  position: relative;
-  left: -100px;
-  width: calc(100% + 100px*2);
   justify-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 2560px) {
+  .photo-grid {
+    max-width: 80vw;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .photo-grid {
+    position: relative;
+    left: -100px;
+    max-width: 1184px;
+    width: calc(100% + 100px*2);
+  }
 }
 
 @media screen and (max-width: 1024px) {
