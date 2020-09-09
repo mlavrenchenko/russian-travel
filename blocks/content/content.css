@@ -2,7 +2,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-
+/*
 @media screen and (max-width: 1280px) {
   .content {
     padding-right: 148px;
@@ -29,4 +29,4 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-}
+} */

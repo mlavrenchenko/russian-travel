@@ -8,15 +8,8 @@
 	line-height: 76px;
 	color: #FFFFFF;
 	margin: 0px;
-	max-width: 40vw;
-	width: 100%;
+  max-width: 460px;
 	align-self: end;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__title {
-    max-width: 460px;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,25 +18,44 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .place__title{
+@media screen and (max-width: 900px) {
+  .place__title {
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 670px) {
+/* @media screen and (max-width: 768px) {
   .place__title{
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+} */
+
+@media screen and (max-width: 670px) {
+  .place__title {
     grid-column: 1;
     grid-row: 1 / 2;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .place__title{
+  .place__title {
     max-width: 320px;
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }

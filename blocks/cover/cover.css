@@ -6,29 +6,11 @@
 	display: flex;
 	align-items: center;
   justify-content: center;
-  max-width: 2048px;
-}
-
-
-@media screen and (max-width: 2560px) {
-  .cover {
-    max-width: 80vw;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .cover {
-    position: relative;
-    left: -100px;
-    width: calc(100% + 100px*2);
-    max-width: 1184px;
-  }
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    left: -48px;
-    width: calc(100% + 48px*2);
     max-width: 1024px;
     min-height: 640px;
   }
@@ -36,8 +18,6 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    left: -24px;
-    width: calc(100% + 24px*2);
     max-width: 768px;
     min-height: 480px;
   }
@@ -45,8 +25,6 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    left: -16px;
-    width: calc(100% + 16px*2);
     max-width: 320px;
     min-height: 200px;
   }

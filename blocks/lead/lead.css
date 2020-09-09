@@ -1,11 +1,5 @@
 .lead {
-  max-width: 2048px;
-}
-
-@media screen and (max-width: 2560px) {
-  .lead {
-    max-width: 80vw;
-  }
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1280px) {

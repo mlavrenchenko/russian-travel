@@ -2,20 +2,30 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 1280) {
+@media screen and (max-width: 1280px) {
   .content__photo-grid {
-    margin: 92px 0 0;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .content__photo-grid {
     margin: 88px 0 0;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 560) {
+@media screen and (max-width: 560px) {
   .content__photo-grid {
     margin: 64px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__photo-grid {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }

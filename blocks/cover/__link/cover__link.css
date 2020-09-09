@@ -1,6 +1,6 @@
 .cover__link {
   z-index: 1;
-  width: 80vw;
+  width: 100%;
   min-height: 740px;
   text-decoration: none;
   display: flex;
