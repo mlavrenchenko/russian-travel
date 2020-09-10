@@ -13,10 +13,10 @@
 	margin-right: 0;
 }
 
-/* .menu__link:hover {
+ .menu__link:hover {
   transition: color 1s linear 0s;
   opacity: .5;
-} */
+}
 
 @media screen and (max-width: 320px) {
   .menu__link {
